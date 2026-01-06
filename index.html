@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Data Analyst</title>
+    <meta name="description" content="Data Analyst Portfolio - Transformer la donnée en décisions stratégiques.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-bg">
+    <nav id="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="mailto:kevin.rosamont@data-workers.com" class="btn-primary">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-orange"></div>
+        <div class="hero-content">
+            <span class="hi">Bonjour, je suis</span>
+            <h1>Kevin <span>Rosamont</span></h1>
+            <p class="hero-subtitle">Consultant Data Analyst & BI</p>
+            <p>J'aide les entreprises à résoudre des problèmes complexes avec des solutions analytiques propres et
+                scalables. Ma passion ? Transformer l'inspiration en insights activables.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">Mon Portfolio</a>
+                <a href="#contact" class="btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="portrait-container">
+                <img src="img_portrait.png" alt="Cerebro Data" id="hero-img">
+                <div class="stats-badge badge-top">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Data Expert</span>
+                </div>
+                <div class="stats-badge badge-bottom">
+                    <i class="fas fa-bolt"></i>
+                    <span>Insightful</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="quote" class="light-bg">
+        <div class="quote-container">
+            <h2 class="quote-text">"J'apprécie le processus de résolution de problèmes avec une solution propre et
+                évolutive. J'ai une véritable passion pour l'analyse de données."</h2>
+        </div>
+    </section>
+
+    <section id="services" class="light-bg">
+        <div class="services-layout">
+            <div class="services-header">
+                <span class="label">Services</span>
+                <h2>Ce que je peux faire pour <span>vous</span></h2>
+                <p>Mon expertise couvre l'ensemble de la chaîne de valeur de la donnée, de la collecte à l'insight
+                    stratégique.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Business Intel</h3>
+                    <p>Dashboards interactifs et automatisés pour piloter votre activité en temps réel.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Modélisation prédictive et analyse statistique pour anticiper les tendances.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Engineering</h3>
+                    <p>Nettoyage et structuration de bases de données pour garantir leur intégrité.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Stratégie Data</h3>
+                    <p>Accompagnement dans la définition de KPIs et d'une roadmap analytique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="dark-bg">
+        <div class="blob blob-pink"></div>
+        <div class="section-header">
+            <span class="label">Expertise</span>
+            <h2>Compétences <span>Professionnelles</span></h2>
+        </div>
+        <div class="skills-flex">
+            <div class="skill-item">
+                <div class="skill-info"><span>Python & R</span><span>90%</span></div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>SQL </span><span>95%</span></div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Tableau / Power BI</span><span>85%</span></div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Machine Learning</span><span>80%</span></div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="light-bg">
+        <div class="section-header">
+            <span class="label">Portfolio</span>
+            <h2>Mes projets récents pour vous <span>inspirer</span></h2>
+        </div>
+        <div class="project-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project_sales_dashboard.png" alt="Ecommerce Power BI">
+                </div>
+                <div class="project-content">
+                    <div class="project-text">
+                        <h3>Ecommerce avec Power BI</h3>
+                        <p>Analyse des performances de vente et suivi des KPIs stratégiques pour une plateforme
+                            e-commerce.</p>
+                    </div>
+                    <a href="https://app.fabric.microsoft.com/view?r=eyJrIjoiY2M3MTAyMmItMmIxYi00NGMwLTlkZTUtY2MwOWQ3ZWVjYjU0IiwidCI6IjlkYmI2NjMzLWNiZjgtNGVjNS05OTFmLTIxNzdhZTM1ZGIwOSJ9"
+                        target="_blank" class="btn-more"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Projet 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project_football_stats.png" alt="Performance Real Madrid">
+                </div>
+                <div class="project-content">
+                    <div class="project-text">
+                        <h3>Performance Real Madrid (Tableau)</h3>
+                        <p>Dashboard interactif analysant les statistiques des joueurs du Real Madrid.</p>
+                    </div>
+                    <a href="https://public.tableau.com/app/profile/kevin1462/viz/foot_dashboard2/stat_player"
+                        target="_blank" class="btn-more"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Projet 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                        alt="Vente Grande Enseigne">
+                </div>
+                <div class="project-content">
+                    <div class="project-text">
+                        <h3>Vente Grande Enseigne (Tableau)</h3>
+                        <p>Suivi géographique des ventes à travers l'Europe pour identifier les zones de croissance.</p>
+                    </div>
+                    <a href="https://public.tableau.com/app/profile/kevin1462/viz/PerformanceMagasinenEurope/Performance"
+                        target="_blank" class="btn-more"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Projet 4 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=800"
+                        alt="Zones de Tirs & Buts">
+                </div>
+                <div class="project-content">
+                    <div class="project-text">
+                        <h3>Zones de Tirs & Buts (Python)</h3>
+                        <p>Visualisation des zones de tirs (shot maps) et coaching analytics via Google Colab.</p>
+                    </div>
+                    <a href="https://colab.research.google.com/drive/1iOwberV94aErli4HR1yropdurQUW26cQ" target="_blank"
+                        class="btn-more"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="dark-bg">
+        <div class="contact-card">
+            <div class="contact-text">
+                <h2>Vous avez un projet en <span>tête</span> ?</h2>
+                <p>Discutons de vos besoins et voyons comment nous pouvons collaborer ensemble pour donner vie à vos
+                    projets.</p>
+                <div class="contact-btns">
+                    <a href="mailto:kevin.rosamont@data-workers.com" class="btn-primary">Envoyez-moi un email</a>
+                </div>
+            </div>
+            <div class="contact-visual">
+                <div class="blob blob-purple"></div>
+            </div>
+        </div>
+        <footer id="main-footer">
+            <div class="footer-logo">KEVIN <span>ROSAMONT</span></div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2026 Data Analyst Portfolio. Tous droits réservés.</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
