@@ -720,3 +720,65 @@ section {
         justify-content: center;
     }
 }
+/* --- Mobile Optimizations (iPhone 15) --- */
+@media (max-width: 1024px) {
+    #hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-visual {
+        width: 320px;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+    }
+
+    .nav-links li:not(:last-child) {
+        display: none;
+    }
+
+    .contact-btns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-text h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 430px) {
+    #hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero-visual {
+        width: 270px;
+        height: 340px;
+    }
+
+    .stats-badge {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+    }
+
+    .badge-top { left: -2%; }
+    .badge-bottom { right: -2%; }
+}
